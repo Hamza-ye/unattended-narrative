@@ -1,46 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Unattended Narrative - Coming Soon</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-image: url('images/temp-bg.png');
-            background-size: cover;
-            background-position: center;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            position: relative;
-        }
-        .overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)); 
-            padding: 4% 5%;
-        }
-        h1, p {
-            color: #fff;
-            margin: 0;
-            word-wrap: break-word;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("images/temp-bg.png");
+        background-size: cover;
+        background-position: center;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-        @media (max-width: 768px) {
-            /* Adjust font size for smaller screens */
-            h1, p {
-                font-size: 16px;
-            }
-        }
+      .overlay {
+        /* text-align: center; */
+        background: rgba(27, 38, 49, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1,
+      h4,
+      p {
+        /* color: #333; */
+        margin: 10px 0;
+      }
+
+      h1 {
+        color: #fdfefe;
+        font-size: 32px;
+      }
+
+      h4 {
+        color: #ebedef;
+        font-size: 20px;
+      }
+
+      p {
+        color: #fdfefe;
+        font-size: 20px;
+      }
+
+      .social-icons {
+        margin-top: 20px;
+      }
+
+      .social-icons a {
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+
+      .social-icons img {
+        width: 50px; /* Adjust the size as needed */
+        height: 50px;
+      }
     </style>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="overlay">
-        <h1>Embark on a Weekly Journey through History:</h1>
-        <h1>a Weekly Quest into the Past Unveiling Untold Stories and Omitted Narratives.</h1>
-		</br>
-        <p>Unattended Narrative - Coming Soon!</p>
+      <h1>Explore the Unattended History:</h1>
+      <h4>
+        A Journey, delving into the forgotten events and unsung heroes that have
+        left an indelible mark on the course of history.
+      </h4>
+      <p>Coming Soon!</p>
+
+      <div class="social-icons">
+        <a href="https://twitter.com/timeliness_" target="_blank"
+          ><img src="icons/x-icon.png" alt="Twitter"
+        /></a>
+        <a href="https://youtube.com/@unattendedNarrative" target="_blank"
+          ><img src="icons/youtube-icon.png" alt="YouTube"
+        /></a>
+      </div>
     </div>
-</body>
+  </body>
 </html>
